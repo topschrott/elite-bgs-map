@@ -1,4 +1,4 @@
-d3.json('/plot.json', function(faction_data){
+d3.json('plot.json', function(faction_data){
 
     var colors = [
         '#1f77b4',  // muted blue
