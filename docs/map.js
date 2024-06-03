@@ -39,6 +39,7 @@ d3.json('plot.json', function(faction_data){
             text: faction.text,
             name: faction.name,
             type: 'mesh3d',
+            mode: 'markers+text',
             alphahull: 7,
             opacity: 0.1,
             hoverinfo: 'name+text',
@@ -67,6 +68,7 @@ d3.json('plot.json', function(faction_data){
         autosize: true,
         height: 900,
         paper_bgcolor: '#000000',
+        hovermode: 'closest',
         scene: {
             aspectratio: {
                 x: 1,
