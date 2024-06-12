@@ -1,4 +1,4 @@
-d3.json('plot.json', function(faction_data){
+d3.json('bgs.json', function(faction_data){
 
     var colors = [
         '#1f77b4',  // muted blue
@@ -55,7 +55,7 @@ d3.json('plot.json', function(faction_data){
 
     var layout = {
         title: {
-            text: faction_data[0].name,
+            text: "Intergalactic Hitchhiker's Coalition",
             font: {
                 color: '#dddddd'
             }
